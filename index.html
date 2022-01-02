@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   
+    <title>Blog site</title>
+    <style>
+        a {
+            text-decoration: none;
+        }
+
+        body {
+            background-color: rgb(234, 243, 217);
+        }
+
+        .card-body ul li a {
+            text-decoration: none;
+            color: #ffffff;
+            margin: 0 1em;
+        }
+
+        .header {
+            background: green;
+            height: 3em;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .card-head {
+            display: block;
+            flex-basis: 50%;
+        }
+
+        .card-body {
+            margin: auto;
+        }
+
+        .card-body ul {
+            display: flex;
+            flex-direction: row;
+            list-style-type: none;
+
+        }
+
+        .card {
+            background-color: white;
+            padding: 1em;
+        }
+
+        h2 {
+            color: white;
+            margin-left: 7%;
+            font-family: "Lobster", cursive;
+        }
+
+        h4 {
+            padding-left: 40px;
+        }
+
+        .header {
+            position: sticky;
+            top: 0;
+        }
+
+        .card {
+            margin: 50px 0px;
+        }
+
+        .container {
+            display: flex;
+        }
+
+        .left-content {
+            flex-basis: 50%;
+            margin: 0px 10px;
+        }
+
+        .right-content {
+            flex-basis: 20%;
+        }
+
+        img {
+            width: 100%;
+        }
+
+        .right-sticky {
+            position: sticky;
+            top: 15em;
+            padding: 1em;
+        }
+
+        .footerSection {
+            background: #000000;
+        }
+
+        .footer-row {
+            display: flex;
+            align-items: center;
+            flex-direction: row;
+        }
+
+        .footer-div-1,
+        .footer-div-2,
+        .footer-div-3 {
+            flex-basis: 33%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 5em;
+        }
+
+        .footer-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+
+        }
+
+        .footer-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .footer-content h3 {
+            color: #ffffff;
+        }
+
+        .footer-container p {
+            color: #ffffff;
+        }
+
+        @media screen and (max-width: 850px) {
+            .header {
+                display: none;
+            }
+
+            .intro {
+                font-size: 1rem;
+            }
+
+            body {
+                background-color: rgb(199, 23, 23);
+            }
+            *{
+                background-image: url("https://images.pexels.com/photos/735911/pexels-photo-735911.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+            }
+
+
+
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <div class="card-head">
+            <h2>ANIKET DIBBE</h2>
+        </div>
+        <div class="card-body">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </div>
+
+
+    </div>
+    <div class="container">
+        <div class="left-content">
+            <div class="card">
+                <h4>ADV.FRONTEND</h4>
+                <hr>
+                <img
+                    src="https://images.pexels.com/photos/5505076/pexels-photo-5505076.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse similique sequi beatae error maiores
+                    quas nostrum repellat? Nostrum, excepturi magni, illum vel voluptatum ducimus quibusdam, dignissimos
+                    exercitationem ex obcaecati distinctio?
+                    Saepe in nam eos velit incidunt modi fugiat harum vitae sed expedita deserunt numquam recusandae,
+                    cupiditate esse alias possimus pariatur neque distinctio, libero reprehenderit corporis quas
+                    consequuntur maxime! Repudiandae, nisi.</p>
+            </div>
+            <div class="card">
+                <h4>CODING</h4>
+                <hr>
+                <img
+                    src="https://images.pexels.com/photos/5935791/pexels-photo-5935791.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
+                <p>India, officially the Republic of India (Hindi: Bhārat Gaṇarājya),[23] is a country in South Asia. It
+                    is the seventh-largest country by area, the second-most populous country, and the most populous
+                    democracy in the world. Bounded by the Indian Ocean on the south, the Arabian Sea on the southwest,
+                    and the Bay of Bengal on the southeast, it shares land borders with Pakistan to the west;[f] China,
+                    Nepal, and Bhutan to the north; and Bangladesh and Myanmar to the east. In the Indian Ocean, India
+                    is in the vicinity of Sri Lanka and the Maldives; its Andaman and Nicobar Islands share a maritime
+                    border with Thailand, Myanmar and Indonesia..</p>
+            </div>
+           
+        </div>
+        <div class="right-content">
+            <div class="card">
+                <h4>About me</h4>
+
+                <h3>Hey there!!!</h3>
+                <h1>I am Aniket dilip Dibbe </h1>
+                <h5>Front end Developer</h5>
+                <p> I am 21 years old. . </p>
+
+
+                i have Interset in web development field. My skills include HTML, CSS , JavaScript , C
+                Programming.
+                </b></p>
+            </div>
+            
+        </div>
+    </div>
+
+    <footer class="footerSection " id="footerid">
+        <div class=" footer-container">
+            <div class="footer-row">
+
+                <div class=" footer-div-1">
+                    <div class="footer-content">
+
+                        
+                    </div>
+                </div>
+
+                <div class=" footer-div-2">
+                    <div class="footer-content">
+                        <h3 class="mt-5">NAVIGATION LINKS</h3>
+                        <li><a href="#topheader">HOME</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                        <li><a href="#">HELP</a></li>
+                    </div>
+                </div>
+
+                <div class=" footer-div-3">
+                    <div class="footer-content">
+                       
+                        <p></p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="copyright">
+                <p>All copyrights @ reserved .</p>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+</body>
+
+</html>
